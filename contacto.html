@@ -6,9 +6,46 @@
     <title>Contacto</title>
 </head>
 <body>
-    <h1>Soy un contacto</h1>
-    <ul>
-        <li><a href="./../EJERCICIO/index.html">Inicio</a></li>
-    </ul>
+    <header>
+        <h1>El mejor Libro</h1>
+        <ul>
+            <li><a href="./../EJERCICIO/index.html">INICIO</a></li>
+            <li><a href="./../EJERCICIO/portfolio.html">Portfolio</a></li>
+            <li><a href="./../EJERCICIO/contacto.html">contacto</a></li>
+            <li><a href="./../EJERCICIO/blog.html">blog</a></li>
+        </ul>
+    </header>
+
+    <p>Ingrese tus datos para recibir tu <strong>libro de programación GRATIS.</strong></p>
+
+    <form action="index.html">
+
+        <div>
+            <label for="nombre">Nombre completo</label>
+            <input id="nombre" type="text" required/>
+        </div>
+        <div>
+            <label for="email">Email</label>
+            <input id="email" type="email" required>
+        </div>
+        <div>
+            <label for="number">Número de celular</label>
+            <input id="number" type="number" required>
+        </div>
+        <div>
+            <label for="seleccionado">Cuál es tu contenido favorito de nosotros?</label>
+            <select name="" id="seleccionado">
+                <option value="css">CSS</option>
+                <option value="js">JS</option>
+                <option value="html">html</option>
+            </select>
+            <p>Que tema te gustaría aprender?</p>
+            <textarea name="" id="" cols="30" rows="10"></textarea>
+        </div>
+
+
+        <input type="submit" value="Enviar">
+    </form>
 </body>
+<footer>Derechos reservados</footer>
 </html>
